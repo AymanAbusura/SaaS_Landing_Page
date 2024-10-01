@@ -1,6 +1,7 @@
 import clsx from 'clsx'
 import Marker from './Marker'
 
+// eslint-disable-next-line react/prop-types
 const Button = ({ icon, children, href, containerClassName, onClick, markerFill }) => {
     const Inner = () => (
         <>

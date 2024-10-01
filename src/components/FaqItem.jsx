@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import clsx from "clsx";
 import { useState } from "react";
 import { SlideDown } from "react-slidedown";

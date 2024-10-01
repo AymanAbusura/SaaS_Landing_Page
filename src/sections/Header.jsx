@@ -1,3 +1,4 @@
+
 import { Link as LinkScroll } from "react-scroll";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
@@ -18,6 +19,7 @@ const Header = () => {
     };
   }, []);
 
+  // eslint-disable-next-line react/prop-types
   const NavLink = ({ title }) => (
     <LinkScroll
       onClick={() => setIsOpen(false)}
