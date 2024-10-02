@@ -1,10 +1,11 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import ReactDOM from "react-dom"
 import App from './App.jsx'
 import './index.css'
 
-createRoot(document.getElementById('root')).render(
+const rootNode = document.getElementById('root');
+// eslint-disable-next-line react/no-deprecated
+ReactDOM.render(
   <StrictMode>
     <App />
-  </StrictMode>,
-)
+  </StrictMode>, rootNode);
